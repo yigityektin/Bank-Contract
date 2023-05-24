@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "BANK_OWNED_MONEY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DOLLAR_AGAINST_TURK",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "EURO_AGAINST_TURK",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "STERLIN_AGAINST_TURK",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enoughForDollar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enoughForEuro",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enoughForSterlin",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/contracts/Exchange.sol": "Exchange"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/contracts/BalanceTracker.sol": {
+			"keccak256": "0x4a6115137be48c9ac86c51bc8aad2c14a2991a76245a6edc60f1325df1158583",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c0e36380bff65690388c516e35d84e4a286e9311eadf3232eea041b726f31f8",
+				"dweb:/ipfs/QmPHxqSMLTsVkK49bxAcGXJRnCvWQwhs3s8djUE5qTZ5g4"
+			]
+		},
+		".deps/contracts/Counter.sol": {
+			"keccak256": "0xb5f17599c055540632a6310f04cc7546c0a2be30e836ab9c72a7c564a8e188df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e04b6b6268e8a534d4de5893fbe61ecf52f4859b5b17b3b9d374aa01600a2a5",
+				"dweb:/ipfs/QmQbd4CuqefaYQUBJUZSaWTKrMnY9UgSEQqkMVUfSyVXoF"
+			]
+		},
+		".deps/contracts/Exchange.sol": {
+			"keccak256": "0x3705752fe4760374f89072a664f720db6e92b3d4eb4c900ca255d8e79bb08f76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a06599cd8988901a9d91dc801191a0aedb20347c7d62be881121ea218232b2c1",
+				"dweb:/ipfs/QmV6NCFbKBP26GY1EuyUL9ivTifDmifdmgRoHN5LvL7x5Q"
+			]
+		},
+		".deps/contracts/Loan.sol": {
+			"keccak256": "0xdc589a10920a7c3e2cc2cd6ab95ef63dae7e78510a4f9aee342fc0f8e30fa291",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef92dd0fbc198d968221a83e8089adf31bff5d9e379040442cf9abe6c03c2175",
+				"dweb:/ipfs/QmadK6R4D2QCioLf3sHD5nof9KtPfTjMTH37Yac25j3Zkg"
+			]
+		}
+	},
+	"version": 1
+}
